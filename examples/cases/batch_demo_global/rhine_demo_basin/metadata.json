@@ -1,0 +1,13 @@
+{
+  "basin_name": "rhine_demo_basin",
+  "package_type": "example_case",
+  "source_basin": "Rhine",
+  "source_pfaf_prefix": "49",
+  "description": "Closed Rhine subbasin extracted for the batch CLI example.",
+  "num_reaches": 75,
+  "num_catchments": 75,
+  "products": {
+    "runoff": "GRADES",
+    "precipitation_upstream_totals": "MSWEP"
+  }
+}

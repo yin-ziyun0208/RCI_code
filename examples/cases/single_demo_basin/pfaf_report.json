@@ -1,0 +1,925 @@
+{
+  "num_reaches": 63,
+  "num_codes": 63,
+  "max_code_length": 3,
+  "min_code_length": 2,
+  "num_subdivided_units": 14,
+  "num_terminal_units": 63,
+  "terminal_reason_distribution": {
+    "below_min_unit_reaches": 63
+  },
+  "code_length_distribution": {
+    "2": 49,
+    "3": 14
+  },
+  "errors": [],
+  "root_outlet_comid": 43071750,
+  "root_num_reaches": 63,
+  "stop_rules": {
+    "max_level": "Stop when the requested maximum Pfaf level is reached.",
+    "below_min_unit_reaches": "Stop when a unit contains fewer reaches than min_unit_reaches.",
+    "no_major_tributaries": "Stop when no tributary branch remains to define a further Pfaf subdivision."
+  },
+  "subdivision_records": [
+    {
+      "prefix": "<root>",
+      "level": 1,
+      "outlet_comid": 43071750,
+      "num_reaches": 63,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43075015,
+          "parent_mainstem_comid": 43074441,
+          "parent_mainstem_index": 16,
+          "uparea": 794.0760204957727,
+          "num_reaches": 17
+        },
+        {
+          "digit": 4,
+          "root_comid": 43074753,
+          "parent_mainstem_comid": 43074740,
+          "parent_mainstem_index": 10,
+          "uparea": 550.0126348505845,
+          "num_reaches": 9
+        },
+        {
+          "digit": 6,
+          "root_comid": 43075222,
+          "parent_mainstem_comid": 43075019,
+          "parent_mainstem_index": 7,
+          "uparea": 243.8928559198138,
+          "num_reaches": 3
+        },
+        {
+          "digit": 8,
+          "root_comid": 43075388,
+          "parent_mainstem_comid": 43075160,
+          "parent_mainstem_index": 3,
+          "uparea": 140.12483576363834,
+          "num_reaches": 3
+        }
+      ]
+    },
+    {
+      "prefix": "1",
+      "level": 2,
+      "outlet_comid": 43071750,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43074981,
+          "parent_mainstem_comid": 43071750,
+          "parent_mainstem_index": 1,
+          "uparea": 37.71163814513048,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "2",
+      "level": 2,
+      "outlet_comid": 43075015,
+      "num_reaches": 17,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076333,
+          "parent_mainstem_comid": 43075015,
+          "parent_mainstem_index": 7,
+          "uparea": 41.96977917761698,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43076240,
+          "parent_mainstem_comid": 43075036,
+          "parent_mainstem_index": 4,
+          "uparea": 35.21252789469125,
+          "num_reaches": 1
+        },
+        {
+          "digit": 6,
+          "root_comid": 43075480,
+          "parent_mainstem_comid": 43075117,
+          "parent_mainstem_index": 2,
+          "uparea": 114.55561672394433,
+          "num_reaches": 3
+        },
+        {
+          "digit": 8,
+          "root_comid": 43075733,
+          "parent_mainstem_comid": 43075265,
+          "parent_mainstem_index": 1,
+          "uparea": 77.58731637948162,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "23",
+      "level": 3,
+      "outlet_comid": 43075022,
+      "num_reaches": 5,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076281,
+          "parent_mainstem_comid": 43075022,
+          "parent_mainstem_index": 2,
+          "uparea": 26.01043218770986,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43076187,
+          "parent_mainstem_comid": 43075032,
+          "parent_mainstem_index": 1,
+          "uparea": 33.97423883301665,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "25",
+      "level": 3,
+      "outlet_comid": 43075099,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076045,
+          "parent_mainstem_comid": 43075099,
+          "parent_mainstem_index": 1,
+          "uparea": 33.21007564784575,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "26",
+      "level": 3,
+      "outlet_comid": 43075480,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43075864,
+          "parent_mainstem_comid": 43075480,
+          "parent_mainstem_index": 1,
+          "uparea": 34.98373518759176,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "3",
+      "level": 2,
+      "outlet_comid": 43074461,
+      "num_reaches": 11,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43074945,
+          "parent_mainstem_comid": 43074461,
+          "parent_mainstem_index": 5,
+          "uparea": 79.77363563275432,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43076399,
+          "parent_mainstem_comid": 43074657,
+          "parent_mainstem_index": 4,
+          "uparea": 125.0458797502873,
+          "num_reaches": 1
+        },
+        {
+          "digit": 6,
+          "root_comid": 43074969,
+          "parent_mainstem_comid": 43074669,
+          "parent_mainstem_index": 3,
+          "uparea": 33.02032291046074,
+          "num_reaches": 1
+        },
+        {
+          "digit": 8,
+          "root_comid": 43076652,
+          "parent_mainstem_comid": 43074708,
+          "parent_mainstem_index": 2,
+          "uparea": 52.13884077171046,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "39",
+      "level": 3,
+      "outlet_comid": 43074724,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076608,
+          "parent_mainstem_comid": 43074724,
+          "parent_mainstem_index": 1,
+          "uparea": 26.231878226681594,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "4",
+      "level": 2,
+      "outlet_comid": 43074753,
+      "num_reaches": 9,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43074959,
+          "parent_mainstem_comid": 43074753,
+          "parent_mainstem_index": 4,
+          "uparea": 133.72980531865235,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43076576,
+          "parent_mainstem_comid": 43075066,
+          "parent_mainstem_index": 3,
+          "uparea": 67.25982175423316,
+          "num_reaches": 1
+        },
+        {
+          "digit": 6,
+          "root_comid": 43076592,
+          "parent_mainstem_comid": 43075156,
+          "parent_mainstem_index": 2,
+          "uparea": 57.79362411819611,
+          "num_reaches": 1
+        },
+        {
+          "digit": 8,
+          "root_comid": 43076506,
+          "parent_mainstem_comid": 43075263,
+          "parent_mainstem_index": 1,
+          "uparea": 51.28917234516675,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "5",
+      "level": 2,
+      "outlet_comid": 43075003,
+      "num_reaches": 5,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076440,
+          "parent_mainstem_comid": 43075003,
+          "parent_mainstem_index": 2,
+          "uparea": 38.55478037424962,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43076280,
+          "parent_mainstem_comid": 43075013,
+          "parent_mainstem_index": 1,
+          "uparea": 46.341409542691814,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "6",
+      "level": 2,
+      "outlet_comid": 43075222,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076230,
+          "parent_mainstem_comid": 43075222,
+          "parent_mainstem_index": 1,
+          "uparea": 36.31153522400836,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "7",
+      "level": 2,
+      "outlet_comid": 43075030,
+      "num_reaches": 7,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43076185,
+          "parent_mainstem_comid": 43075030,
+          "parent_mainstem_index": 3,
+          "uparea": 42.40501904964954,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43075944,
+          "parent_mainstem_comid": 43075084,
+          "parent_mainstem_index": 2,
+          "uparea": 39.49245664555362,
+          "num_reaches": 1
+        },
+        {
+          "digit": 6,
+          "root_comid": 43076064,
+          "parent_mainstem_comid": 43075097,
+          "parent_mainstem_index": 1,
+          "uparea": 54.191090380007154,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "8",
+      "level": 2,
+      "outlet_comid": 43075388,
+      "num_reaches": 3,
+      "child_digits": [
+        1,
+        2,
+        3
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43075866,
+          "parent_mainstem_comid": 43075388,
+          "parent_mainstem_index": 1,
+          "uparea": 41.9358875559248,
+          "num_reaches": 1
+        }
+      ]
+    },
+    {
+      "prefix": "9",
+      "level": 2,
+      "outlet_comid": 43075218,
+      "num_reaches": 5,
+      "child_digits": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "major_tributaries": [
+        {
+          "digit": 2,
+          "root_comid": 43075678,
+          "parent_mainstem_comid": 43075218,
+          "parent_mainstem_index": 2,
+          "uparea": 117.3747039511876,
+          "num_reaches": 1
+        },
+        {
+          "digit": 4,
+          "root_comid": 43075664,
+          "parent_mainstem_comid": 43075465,
+          "parent_mainstem_index": 1,
+          "uparea": 28.15546826654475,
+          "num_reaches": 1
+        }
+      ]
+    }
+  ],
+  "terminal_records": [
+    {
+      "prefix": "11",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "12",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "13",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "21",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "22",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "231",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "232",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "233",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "234",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "235",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "24",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "251",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "252",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "253",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "261",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "262",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "263",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "27",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "28",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "29",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "31",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "32",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "33",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "34",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "35",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "36",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "37",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "38",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "391",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "392",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "393",
+      "level": 3,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "41",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "42",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "43",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "44",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "45",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "46",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "47",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "48",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "49",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "51",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "52",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "53",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "54",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "55",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "61",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "62",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "63",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "71",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "72",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "73",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "74",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "75",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "76",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "77",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "81",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "82",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "83",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "91",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "92",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "93",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "94",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    },
+    {
+      "prefix": "95",
+      "level": 2,
+      "num_reaches": 1,
+      "reason": "below_min_unit_reaches"
+    }
+  ],
+  "level1_summary": [
+    {
+      "digit": "1",
+      "num_reaches": 3,
+      "outlet_comid": 43071750,
+      "max_uparea": 3090.0199744
+    },
+    {
+      "digit": "2",
+      "num_reaches": 17,
+      "outlet_comid": 43075015,
+      "max_uparea": 794.0760204957727
+    },
+    {
+      "digit": "3",
+      "num_reaches": 11,
+      "outlet_comid": 43074461,
+      "max_uparea": 2228.02796253
+    },
+    {
+      "digit": "4",
+      "num_reaches": 9,
+      "outlet_comid": 43074753,
+      "max_uparea": 550.0126348505845
+    },
+    {
+      "digit": "5",
+      "num_reaches": 5,
+      "outlet_comid": 43075003,
+      "max_uparea": 1067.66648472
+    },
+    {
+      "digit": "6",
+      "num_reaches": 3,
+      "outlet_comid": 43075222,
+      "max_uparea": 243.8928559198138
+    },
+    {
+      "digit": "7",
+      "num_reaches": 7,
+      "outlet_comid": 43075030,
+      "max_uparea": 692.222900404799
+    },
+    {
+      "digit": "8",
+      "num_reaches": 3,
+      "outlet_comid": 43075388,
+      "max_uparea": 140.12483576363834
+    },
+    {
+      "digit": "9",
+      "num_reaches": 5,
+      "outlet_comid": 43075218,
+      "max_uparea": 290.7681357059868
+    }
+  ]
+}

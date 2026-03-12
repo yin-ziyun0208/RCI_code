@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "aggregation_method": "supersampled_area_weighted_v1",
+  "supersample_factor": 8,
+  "area_weighted": true,
+  "source_file": "data/climate/climatology/mswep_precipitation_mean.nc",
+  "variable": "precipitation",
+  "reduction": "mean",
+  "row_count": 57,
+  "local_mass_unit": "precipitation * km2",
+  "example_case": true,
+  "source_basin": "Yangtze",
+  "source_pfaf_prefix": "224"
+}
