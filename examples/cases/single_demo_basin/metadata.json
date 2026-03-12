@@ -1,0 +1,13 @@
+{
+  "basin_name": "single_demo_basin",
+  "package_type": "example_case",
+  "source_basin": "poyang",
+  "source_pfaf_prefix": "92",
+  "description": "Closed Poyang subbasin extracted for the single-basin CLI example.",
+  "num_reaches": 63,
+  "num_catchments": 63,
+  "products": {
+    "runoff": "GRADES",
+    "precipitation_upstream_totals": "MSWEP"
+  }
+}

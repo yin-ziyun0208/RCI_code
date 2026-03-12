@@ -1,0 +1,13 @@
+{
+  "basin_name": "yangtze_demo_basin",
+  "package_type": "example_case",
+  "source_basin": "Yangtze",
+  "source_pfaf_prefix": "224",
+  "description": "Closed Yangtze subbasin extracted for the batch CLI example.",
+  "num_reaches": 57,
+  "num_catchments": 57,
+  "products": {
+    "runoff": "GRADES",
+    "precipitation_upstream_totals": "MSWEP"
+  }
+}

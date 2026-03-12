@@ -1,0 +1,21 @@
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+
+# Local OS/editor noise
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+outputs/
+results/
+
+# Large project data are expected to stay outside GitHub
+data/
