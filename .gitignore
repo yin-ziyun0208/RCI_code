@@ -19,3 +19,6 @@ results/
 
 # Large project data are expected to stay outside GitHub
 data/
+
+# Private writing material should not be tracked
+reference/

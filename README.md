@@ -40,7 +40,6 @@ The same logic is exposed through:
 ├── scripts/
 ├── results/
 ├── outputs/
-├── reference/
 ├── environment.yml
 └── requirements.txt
 ```
@@ -574,13 +573,3 @@ under:
 
 These cases can be run directly with the same Python entry scripts as the full
 project data.
-
-## Reference Material
-
-The manuscript draft and related explanatory material are stored under:
-
-- [reference](reference)
-
-See:
-
-- [reference/README.md](reference/README.md)

@@ -71,7 +71,7 @@ def _classify_group(
     qhum_trend: float,
     threshold: float,
 ) -> tuple[int, str]:
-    """Classify Figure 8 groups using the main text rather than the caption shorthand.
+    """Classify Figure 8 groups using the fuller paper logic rather than the caption shorthand.
 
     Group 1:
         P and Q_nat show trends in the same direction and both exceed the
@@ -81,7 +81,7 @@ def _classify_group(
     Group 4:
         Special cases where Q_hum is closer to P than Q_nat while P and Q_nat
         still migrate in the same direction. These are retained in the boxplot
-        for completeness even though the manuscript treats them separately.
+        for completeness even though the figure logic treats them separately.
     Group 3:
         Remaining cases with inconsistent or mixed trend behavior.
     """
